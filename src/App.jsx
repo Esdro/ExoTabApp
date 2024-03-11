@@ -190,6 +190,7 @@ function App() {
                        <h1> Bienvenue sur mon projet fictif sur React.  </h1>
                        <p>  Le but de cet exercice est de créer une fonctionnalité un peu comme des Onglets qui affiche du contenu.    </p>
                        <p> Vous verrez plusieurs boutons qui ont chacun un attribut, et qui me permettent de pouvoir afficher les contenus qui ont le même attribut   </p>
+                       <p> Le challenge pour moi ici a été de bien utiliser les fonctions <strong> Filter</strong> et <strong>Map</strong> de Javascript avec React   </p>
                    </div>
                    <div className=" projet_title  col-12">
                        <div className={'tab_buttons hstack justify-content-between'}>
