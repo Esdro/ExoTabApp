@@ -3,7 +3,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import {Button} from "./UtilsComponents/Button.jsx";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 function App() {
 
@@ -161,7 +161,16 @@ function App() {
     ]
 
 
+
     const [currentTab, setCurrentTab] = useState('saison')
+
+    /**
+     * UseEffect pour pouvoir changer le titre de mon document à chaque tab
+     */
+    useEffect(() => {
+        document.title = ` Tab ${currentTab.toUpperCase()} `;
+    }, [currentTab])
+
 
     /**
      * Function qui permet de savoir le bouton sur lequel on a cliqué afin de changer notre const currentTab
