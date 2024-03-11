@@ -192,8 +192,8 @@ function App() {
                        <p> Vous verrez plusieurs boutons qui ont chacun un attribut, et qui me permettent de pouvoir afficher les contenus qui ont le même attribut   </p>
                        <p> Le challenge pour moi ici a été de bien utiliser les fonctions <strong> Filter</strong> et <strong>Map</strong> de Javascript avec React   </p>
                    </div>
-                   <div className=" projet_title  col-6">
-                       <div className={'tab_buttons hstack justify-content-center'}>
+                   <div className=" projet_title  col-10">
+                       <div className={'tab_buttons hstack justify-content-around'}>
                            <Button type={'primary'} dataAttribute={'home'} onClick={handleButtonClick}> Articles de maison </Button>
                            <Button type={'secondary'} dataAttribute={'decor'} onClick={handleButtonClick}> Décoration </Button>
                            <Button type={'outline-dark'} dataAttribute={"saison"} onClick={handleButtonClick}> Saisons </Button>
