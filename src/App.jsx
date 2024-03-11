@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-vars,react/no-unescaped-entities */
 // eslint-disable-next-line react/prop-types
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
@@ -200,6 +200,7 @@ function App() {
                        <p>  Le but de cet exercice est de créer une fonctionnalité un peu comme des Onglets qui affiche du contenu.    </p>
                        <p> Vous verrez plusieurs boutons qui ont chacun un attribut, et qui me permettent de pouvoir afficher les contenus qui ont le même attribut   </p>
                        <p> Le challenge pour moi ici a été de bien utiliser les fonctions <strong> Filter</strong> et <strong>Map</strong> de Javascript avec React   </p>
+                       <p>  J'ai bien implémenter aussi  <strong> useEffect</strong> pour changer le titre de mon document à chaque fois qu'on change d'onglet  </p>
                    </div>
                    <div className=" projet_title  col-10">
                        <div className={'tab_buttons hstack justify-content-around'}>
