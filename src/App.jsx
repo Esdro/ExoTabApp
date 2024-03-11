@@ -184,8 +184,13 @@ function App() {
     return (
     <>
            <div className="container p-4 mx-auto">
-               <div className="row">
+               <div className="row m-auto align-items-center d-flex gap-2 justify-content-around  ">
 
+                   <div className="col-8">
+                       <h1> Bienvenue sur mon projet fictif sur React.  </h1>
+                       <p>  Le but de cet exercice est de créer une fonctionnalité un peu comme des Onglets qui affiche du contenu.    </p>
+                       <p> Vous verrez plusieurs boutons qui ont chacun un attribut, et qui me permettent de pouvoir afficher les contenus qui ont le même attribut   </p>
+                   </div>
                    <div className=" projet_title  col-12">
                        <div className={'tab_buttons hstack justify-content-between'}>
                            <Button type={'primary'} dataAttribute={'home'} onClick={handleButtonClick}> Articles de maison </Button>
